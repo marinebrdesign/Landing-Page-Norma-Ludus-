@@ -1,0 +1,174 @@
+main > h1 {
+    color: #CF4C68;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 135px;
+}
+
+.texte > p:first-of-type {
+    color: black;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.texte > p:nth-of-type(2){
+    color: black;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.texte > p:last-of-type{
+    color: black;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.inscrivez-vous {
+    background-color: white;
+}
+
+.inscrivez-vous h2 {
+    color: black;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.inscrivez-vous b {
+    color: black;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 35px;
+    text-decoration: underline;
+
+}
+
+.inscrivez-vous p {
+    color: black;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #FFE9AA;
+}
+
+.inscrivez-vous > p:last-of-type {
+    color: black;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: white;
+}
+.mdp > p:first-of-type {
+    color: black;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 11px;
+    background-color: white;
+}
+
+.je-m-inscris p {
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: #CF4C68;
+}
+
+.fonctionnalites p{
+    color: black;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 27px
+}
+
+.fonctionnalites h2{
+    color: black;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 44px
+}
+
+.a-propos > p {
+    color: black;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px
+}
+
+.a-propos > h3, .equipe > h3, .contact > h3 {
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 37px;
+    background-color: #CF4C68;
+}
+
+.contact p {
+    color: #666666;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px
+}
+
+.envoyer > p {
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #CF4C68;
+}
+
+.lena > address > p {
+    color: #76A0A3;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 31px;
+    text-decoration: none;
+}
+
+.lena > address > a {
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #76A0A3;
+}
+
+.marine> address > p {
+    color: #CF4C68;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 31px;
+    text-decoration: none;
+}
+
+
+.marine > address > a {
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #CF4C68;
+}
+
+.nina > address > p {
+    color: #E7A52E;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 31px;
+    text-decoration: none;
+}
+
+.nina > address > a {
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #E7A52E;
+}
