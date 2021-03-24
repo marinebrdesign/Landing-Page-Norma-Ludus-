@@ -1,3 +1,24 @@
+/* réseaux sociaux*/
+/*facebook*/
+svg#Bold {
+    fill: #92C2C5;
+}
+
+/*instagram*/
+svg.feather.feather-instagram {
+    stroke:#92C2C5;
+}
+
+/*mail*/
+svg#Capa_1 {
+    stroke: #92C2C5;
+    fill :#92C2C5;
+    width: 55px;
+    height: 79px;
+}
+
+/* haut de la page*/
+/*titre*/
 main > h1 {
     color: #CF4C68;
     font-family: Merriweather;
@@ -5,6 +26,7 @@ main > h1 {
     font-size: 135px;
 }
 
+/*texte*/
 .texte > p:first-of-type {
     color: black;
     font-family: Roboto;
@@ -26,6 +48,7 @@ main > h1 {
     font-size: 25px;
 }
 
+/*inscription*/
 .inscrivez-vous {
     background-color: white;
 }
@@ -77,6 +100,7 @@ main > h1 {
     background-color: #CF4C68;
 }
 
+/*fonctionnalités*/
 .fonctionnalites p{
     color: black;
     font-family: Roboto;
@@ -91,6 +115,7 @@ main > h1 {
     font-size: 44px
 }
 
+/* à propos*/
 .a-propos > p {
     color: black;
     font-family: Roboto;
@@ -106,6 +131,7 @@ main > h1 {
     background-color: #CF4C68;
 }
 
+/* contact*/
 .contact p {
     color: #666666;
     font-family: Roboto;
@@ -121,6 +147,7 @@ main > h1 {
     background-color: #CF4C68;
 }
 
+/*L'équipe*/
 .lena > address > p {
     color: #76A0A3;
     font-family: Roboto;
