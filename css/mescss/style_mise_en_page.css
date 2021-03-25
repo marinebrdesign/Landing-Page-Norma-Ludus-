@@ -1,5 +1,14 @@
 header {
-    position: relative;
+    height: 50px;
+}
+
+/* logo*/
+.logo img {
+    width: 180px;
+    height: 65px;
+    position: absolute;
+    left: 44px;
+    top: 40px;
 }
 
 /*réseaux sociaux*/
@@ -20,10 +29,58 @@ h1, .texte {
     padding-left: 140px;
 }
 
-.texte p:first-of-type {
-    padding-right: 921px;
+h1 {
+    padding-top: 50px;
+    margin-block-end: 20px;
 }
 
-.texte p:nth-of-type(n+2) {
-    padding-right: 1200px;
+.texte p:first-of-type {
+    padding-right: 750px;
+    padding-bottom: 15px;
 }
+
+.texte p:nth-of-type(2) {
+    padding-right: 975px;
+}
+
+.texte p:nth-of-type(3) {
+    padding-right: 975px;
+    padding-top: 25px;
+}
+/*image fond*/
+figure.img_inscription > img {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 525px;
+}
+/* Inscrivez-vous*/
+.inscription {
+    position: absolute;
+    left: 1000px;
+    top: 10px;
+    right: 75px;
+}
+
+.inscrivez-vous h2 {
+    padding: 0 120px 3px 120px;
+    text-align: center;
+}
+ .prenom\/nom p, .age p, .id p, .mail p, .mdp p {
+     padding: 20px 90px 20px 90px;
+ }
+
+ .mdp p:first-of-type {
+     text-align: center;
+     padding: 0 70px 0 70px;
+ }
+
+ .je-m-inscris p {
+     text-align: center;
+     padding: 15px 0 15px 0;
+ }
+
+ .inscription > p {
+     text-align: center;
+     padding: 0 70px 0 70px;
+ }

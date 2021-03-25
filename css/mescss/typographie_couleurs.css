@@ -1,3 +1,7 @@
+/*body {
+    background-color: black;
+}*/
+
 /* réseaux sociaux*/
 /*facebook*/
 svg#Bold {
@@ -23,7 +27,7 @@ main > h1 {
     color: #CF4C68;
     font-family: Merriweather;
     font-weight: 700;
-    font-size: 135px;
+    font-size: 100px;
 }
 
 /*texte*/
@@ -31,21 +35,21 @@ main > h1 {
     color: black;
     font-family: Roboto;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .texte > p:nth-of-type(2){
     color: black;
     font-family: Roboto;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .texte > p:last-of-type{
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 /*inscription*/
@@ -57,14 +61,14 @@ main > h1 {
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .inscrivez-vous b {
     color: black;
     font-family: Roboto;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 27px;
     text-decoration: underline;
 
 }
@@ -73,22 +77,21 @@ main > h1 {
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     background-color: #FFE9AA;
 }
 
-.inscrivez-vous > p:last-of-type {
+.inscription > p {
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    font-size: 20px;
-    background-color: white;
+    font-size: 15px;
 }
 .mdp > p:first-of-type {
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    font-size: 11px;
+    font-size: 10px;
     background-color: white;
 }
 
@@ -96,7 +99,7 @@ main > h1 {
     color: white;
     font-family: Roboto;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 18px;
     background-color: #CF4C68;
 }
 
