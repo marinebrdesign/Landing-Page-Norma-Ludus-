@@ -73,12 +73,13 @@ main > h1 {
 
 }
 
-.inscrivez-vous p {
+button.prenom\/nom, .age button, .id button, .mail button, .mdp button {
     color: black;
     font-family: Roboto;
     font-weight: 300;
     font-size: 15px;
     background-color: #FFE9AA;
+
 }
 
 .inscription > p {
@@ -95,12 +96,13 @@ main > h1 {
     background-color: white;
 }
 
-.je-m-inscris p {
+.je-m-inscris button {
     color: white;
     font-family: Roboto;
     font-weight: 700;
     font-size: 18px;
     background-color: #CF4C68;
+
 }
 
 /*fonctionnalités*/
@@ -115,7 +117,7 @@ main > h1 {
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    font-size: 44px
+    font-size: 44px;
 }
 
 /* à propos*/
@@ -123,7 +125,7 @@ main > h1 {
     color: black;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 24px
+    font-size: 24px;
 }
 
 .a-propos > h3, .equipe > h3, .contact > h3 {
@@ -139,7 +141,7 @@ main > h1 {
     color: #666666;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 22px
+    font-size: 22px;
 }
 
 .envoyer > p {
