@@ -132,7 +132,7 @@ button.prenom\/nom, .age button, .id button, .mail button, .mdp button {
     color: white;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 37px;
+    font-size: 32px;
     background-color: #CF4C68;
 }
 
@@ -157,25 +157,28 @@ button.prenom\/nom, .age button, .id button, .mail button, .mdp button {
     color: #76A0A3;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 31px;
+    font-size: 24px;
     text-decoration: none;
+    font-style: normal;
 }
 
 .lena > address > a {
     color: white;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
     background-color: #76A0A3;
+    font-style: normal;
 }
 
 .marine> address > p {
     color: #CF4C68;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 31px;
+    font-size: 24px;
     text-decoration: none;
+    font-style: normal;
 }
 
 
@@ -183,24 +186,27 @@ button.prenom\/nom, .age button, .id button, .mail button, .mdp button {
     color: white;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
     background-color: #CF4C68;
+    font-style: normal;
 }
 
 .nina > address > p {
     color: #E7A52E;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 31px;
+    font-size: 24px;
     text-decoration: none;
+    font-style: normal;
 }
 
 .nina > address > a {
     color: white;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
     background-color: #E7A52E;
+    font-style: normal;
 }
