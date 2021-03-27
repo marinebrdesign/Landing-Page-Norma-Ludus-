@@ -255,3 +255,29 @@ figure.img_equipe > img {
     left: 425px;
     top: -25px;
 }
+
+/*à propos*/
+/*image vague*/
+figure.vague > img {
+    position: relative;
+    top: 70px;
+    left: -50px;
+}
+figure.vague2 > img {
+    position: relative;
+    left: -50px;
+}
+
+
+.a-propos > h3 {
+    width: 375px;
+    height: 60px;
+    border-radius: 60px 0 0 60px;
+    text-align: left;
+    padding: 15px 0 0 60px;
+    position: relative;
+    left: 1085px;
+}
+.a-propos > p {
+    padding: 0 200px 0 200px;
+}
