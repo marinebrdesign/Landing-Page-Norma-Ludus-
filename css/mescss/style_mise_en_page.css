@@ -54,6 +54,7 @@ figure.img_inscription > img {
     z-index: -1;
     left: 525px;
 }
+
 /* Inscrivez-vous*/
 .inscription {
     position: absolute;
@@ -136,3 +137,65 @@ button.mdp {
      text-align: center;
      padding: 0 70px 0 70px;
  }
+
+ /*fonctionnalités*/
+.fonctionnalites {
+    position: relative;
+}
+
+/*image decouvrez*/
+figure.img_decouvrez > img {
+    z-index: -2;
+    position: absolute;
+    top: 15px;
+    left: -10px;
+}
+
+/*découvrez*/
+.decouvrez >h2, .decouvrez > p {
+    position: relative;
+    left: 850px;
+    top:280px;
+    width: 450px;
+}
+
+/*postez*/
+/*image postez*/
+figure.img_postez > img {
+    z-index: -1;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+}
+
+.postez > h2, .postez > p {
+    position: relative;
+    left: 300px;
+    top:600px;
+    width: 350px;
+}
+
+/*achetez/vendez*/
+/*image achetez/vendez*/
+figure.img_achetez_vendez > img {
+    z-index: -2;
+    position: absolute;
+    top: 950px;
+    left: -10px;
+}
+
+.achetez_vendez > h2, .achetez_vendez > p {
+    position: relative;
+    left: 1000px;
+    top:900px;
+    width: 450px;
+}
+
+.equipe, .a-propos, .contact {
+    position: relative;
+    top: 1000px;
+}
+
+
+
+

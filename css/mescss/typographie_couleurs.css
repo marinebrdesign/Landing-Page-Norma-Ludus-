@@ -110,14 +110,14 @@ button.prenom\/nom, .age button, .id button, .mail button, .mdp button {
     color: black;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 27px
+    font-size: 22px
 }
 
 .fonctionnalites h2{
     color: black;
     font-family: Roboto;
     font-weight: 300;
-    font-size: 44px;
+    font-size: 38px;
 }
 
 /* à propos*/
