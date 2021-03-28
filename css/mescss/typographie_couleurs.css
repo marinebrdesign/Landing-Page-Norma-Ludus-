@@ -79,7 +79,6 @@ input#prenom\/nom, input#age, input#id, input#mail, input#mdp {
     font-weight: 300;
     font-size: 15px;
     background-color: #FFE9AA;
-
 }
 
 .inscription > p {
@@ -196,7 +195,7 @@ button.je-m-inscris {
 }
 
 /* contact*/
-.contact label {
+input#mail2, input#nom, input#prenom, textarea#msg{
     color: #666666;
     font-family: Roboto;
     font-weight: 500;
