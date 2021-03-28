@@ -71,59 +71,73 @@ figure.img_inscription > img {
     padding: 20px 120px 3px 120px;
     text-align: center;
 }
- button.prenom\/nom {
+input#prenom\/nom {
      border-radius: 17px;
-     padding: 12px 230px 12px 25px;
+     padding-left: 20px;
+    padding-right: 20px;
      margin-bottom: 10px;
      position: relative;
      left: 50px;
      border: none;
+     width: 305px;
+     height: 40px;
  }
 
-button.age {
+input#age {
     border-radius: 17px;
-    padding: 12px 290px 12px 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 10px;
     position: relative;
     left: 50px;
     border: none;
+    width: 305px;
+    height: 40px;
 }
 
-button.id {
+input#id {
     border-radius: 17px;
-    padding: 12px 250px 12px 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 10px;
     position: relative;
     left: 50px;
     border: none;
+    width: 305px;
+    height: 40px;
 }
 
-button.mail {
+input#mail {
     margin-bottom: 0;
     border-radius: 17px;
-    padding: 12px 280px 12px 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     position: relative;
     left: 50px;
     border: none;
-
+    width: 305px;
+    height: 40px;
 }
 
-button.mdp {
+input#mdp {
     border-radius: 17px;
-    padding: 12px 190px 12px 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 10px;
     position: relative;
     left: 50px;
     border: none;
+    width: 305px;
+    height: 40px;
 }
 
- .mdp p:first-of-type {
+.mdp p:first-of-type {
      text-align: center;
      background: none;
      padding: 0 50px 0 50px;
- }
+}
 
- .je-m-inscris button {
+button.je-m-inscris {
      text-align: center;
      padding: 12px 125px 12px 125px;
      margin-bottom: 20px;
@@ -131,12 +145,12 @@ button.mdp {
      left: 50px;
      border-radius: 17px;
      border: none;
- }
+}
 
- .inscription > p {
+.inscription > p {
      text-align: center;
      padding: 0 70px 0 70px;
- }
+}
 
  /*fonctionnalités*/
 .fonctionnalites {
@@ -305,10 +319,9 @@ figure.img_contact > img{
      border: none;
  }
 
-form {
+form#contact {
     margin: 0 auto;
     width: 950px;;
-    background-color: #FCBAC5;
     border-radius: 1em;
     position: relative;
     height: 525px;

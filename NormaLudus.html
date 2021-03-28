@@ -36,43 +36,33 @@
     <div class="inscription">
         <div class="inscrivez-vous">
             <h2>Inscrivez-vous <b>gratuitement</b></h2>
-            <div class="prenom/nom">
-                <button class="prenom/nom"
-                        type="submit">
-                    Prénom Nom
-                </button>
-            </div>
-            <div class="age">
-                <button class="age"
-                        type="submit">
-                    Âge
-                </button>
-            </div>
-            <div class="id">
-                <button class="id"
-                        type="submit">
-                    Identifiant
-                </button>
-            </div>
-            <div class="mail">
-                <button class="mail"
-                        type="submit">
-                    Email
-                </button>
-            </div>
-            <div class="mdp">
-                <p>Créez un mot de passe avec minimum 12 caractères, au moins : <br> une majuscule, une minuscule, un chiffre et un caractère spécial </p>
-                <button class="mdp"
-                        type="submit">
-                    Votre mot de passe
-                </button>
-            </div>
-            <div class="je-m-inscris">
+            <form action="formulaire_inscription" method="post" id="inscription">
+                <div class="prenom/nom">
+                    <label for="prenom/nom"></label>
+                    <input type="text" placeholder="Prénom Nom" id="prenom/nom" name="user_firstname_name" required>
+                </div>
+                <div class="age">
+                    <label for="age"></label>
+                    <input type="date" placeholder="Âge" id="age" name="user_age" required>
+                </div>
+                <div class="id">
+                    <label for="id"></label>
+                    <input type="text" id="id" placeholder="Identifiant" name="user_id" required>
+                </div>
+                <div class="mail">
+                    <label for="mail"></label>
+                    <input type="email" placeholder="Email" id="mail" name="user_mail" required>
+                </div>
+                <div class="mdp">
+                    <p>Créez un mot de passe avec minimum 12 caractères, au moins : <br> une majuscule, une minuscule, un chiffre et un caractère spécial </p>
+                    <label for="mdp"></label>
+                    <input type="password" placeholder="Votre mot de passe" id="mdp" name="user_password">
+                </div>
                 <button class="je-m-inscris"
-                        type="submit">
+                    type="submit">
                     Je m'inscris
                 </button>
-            </div>
+            </form>
         </div>
         <p>N'attendez pas et rejoignez nous vite sur Norma Ludus !</p>
     </div>
@@ -152,22 +142,22 @@
             <img src="img/img_contact.jpg" alt="contact" width="1520" height="750">
         </figure>
         <h3>Nous contacter</h3>
-        <form action="formulaire_de_contact" method="post">
+        <form action="formulaire_de_contact" method="post" id="contact">
             <div class="prenom">
                 <label for="prenom">Prénom</label>
-                <input type="text" id="prenom" name="user_firstname">
+                <input type="text" id="prenom" name="user_firstname" required>
             </div>
             <div class="nom">
                 <label for="nom">Nom</label>
-                <input type="text" id="nom" name="user_name">
+                <input type="text" id="nom" name="user_name" required>
             </div>
             <div class="mail2">
-                <label for="mail2">Adresse mail</label>
-                <input type="email" id="mail2" name="user_mail">
+                <label for="mail2">Email</label>
+                <input type="email" id="mail2" name="user_mail" required>
             </div>
             <div class="msg">
                 <label for="msg">Message</label>
-                <textarea id="msg" name="user_message"></textarea>
+                <textarea id="msg" name="user_message" required></textarea>
             </div>
             <button class="envoyer"
                     type="submit">

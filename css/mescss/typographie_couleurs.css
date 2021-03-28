@@ -73,7 +73,7 @@ main > h1 {
 
 }
 
-button.prenom\/nom, .age button, .id button, .mail button, .mdp button {
+input#prenom\/nom, input#age, input#id, input#mail, input#mdp {
     color: black;
     font-family: Roboto;
     font-weight: 300;
@@ -96,7 +96,7 @@ button.prenom\/nom, .age button, .id button, .mail button, .mdp button {
     background-color: white;
 }
 
-.je-m-inscris button {
+button.je-m-inscris {
     color: white;
     font-family: Roboto;
     font-weight: 700;
@@ -203,7 +203,7 @@ button.prenom\/nom, .age button, .id button, .mail button, .mdp button {
     font-size: 22px;
 }
 
-form {
+form#contact {
     background-color: #FCBAC5;
 }
 
