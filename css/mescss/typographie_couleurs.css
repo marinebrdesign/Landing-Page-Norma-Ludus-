@@ -136,22 +136,6 @@ button.prenom\/nom, .age button, .id button, .mail button, .mdp button {
     background-color: #CF4C68;
 }
 
-/* contact*/
-.contact p {
-    color: #666666;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 22px;
-}
-
-.envoyer > p {
-    color: white;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 22px;
-    background-color: #CF4C68;
-}
-
 /*L'équipe*/
 .lena > address > p {
     color: #76A0A3;
@@ -209,4 +193,24 @@ button.prenom\/nom, .age button, .id button, .mail button, .mdp button {
     text-decoration: none;
     background-color: #E7A52E;
     font-style: normal;
+}
+
+/* contact*/
+.contact label {
+    color: #666666;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+form {
+    background-color: #FCBAC5;
+}
+
+button.envoyer {
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #CF4C68;
 }

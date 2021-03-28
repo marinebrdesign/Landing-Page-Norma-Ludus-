@@ -38,38 +38,38 @@
             <h2>Inscrivez-vous <b>gratuitement</b></h2>
             <div class="prenom/nom">
                 <button class="prenom/nom"
-                        type="button">
+                        type="submit">
                     Prénom Nom
                 </button>
             </div>
             <div class="age">
                 <button class="age"
-                        type="button">
+                        type="submit">
                     Âge
                 </button>
             </div>
             <div class="id">
                 <button class="id"
-                        type="button">
+                        type="submit">
                     Identifiant
                 </button>
             </div>
             <div class="mail">
                 <button class="mail"
-                        type="button">
+                        type="submit">
                     Email
                 </button>
             </div>
             <div class="mdp">
                 <p>Créez un mot de passe avec minimum 12 caractères, au moins : <br> une majuscule, une minuscule, un chiffre et un caractère spécial </p>
                 <button class="mdp"
-                        type="button">
+                        type="submit">
                     Votre mot de passe
                 </button>
             </div>
             <div class="je-m-inscris">
                 <button class="je-m-inscris"
-                        type="button">
+                        type="submit">
                     Je m'inscris
                 </button>
             </div>
@@ -148,22 +148,32 @@
     </div>
 
     <div class="contact">
+        <figure class="img_contact">
+            <img src="img/img_contact.jpg" alt="contact" width="1520" height="750">
+        </figure>
         <h3>Nous contacter</h3>
-        <div class="nom">
-            <p>Nom</p>
-        </div>
-        <div class="prenom">
-            <p>Prénom</p>
-        </div>
-        <div class="mail">
-            <p>Adresse mail</p>
-        </div>
-        <div class="message">
-            <p>Message</p>
-        </div>
-        <div class="envoyer">
-            <p>Envoyer</p>
-        </div>
+        <form action="formulaire_de_contact" method="post">
+            <div class="prenom">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="user_firstname">
+            </div>
+            <div class="nom">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="user_name">
+            </div>
+            <div class="mail2">
+                <label for="mail2">Adresse mail</label>
+                <input type="email" id="mail2" name="user_mail">
+            </div>
+            <div class="msg">
+                <label for="msg">Message</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <button class="envoyer"
+                    type="submit">
+                Envoyer
+            </button>
+        </form>
     </div>
 </main>
 </body>

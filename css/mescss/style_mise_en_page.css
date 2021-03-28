@@ -71,7 +71,7 @@ figure.img_inscription > img {
     padding: 20px 120px 3px 120px;
     text-align: center;
 }
- button.prenom\/nom /*, button.mail, button.mdp*/  {
+ button.prenom\/nom {
      border-radius: 17px;
      padding: 12px 230px 12px 25px;
      margin-bottom: 10px;
@@ -245,7 +245,7 @@ figure.img_equipe > img {
 }
 
 /*nina*/
-.nina > address > a{
+.nina > address > a {
     padding: 10px 20px 10px 20px;
     border-radius: 60px;
 }
@@ -268,7 +268,6 @@ figure.vague2 > img {
     left: -50px;
 }
 
-
 .a-propos > h3 {
     width: 375px;
     height: 60px;
@@ -278,6 +277,127 @@ figure.vague2 > img {
     position: relative;
     left: 1085px;
 }
+
 .a-propos > p {
     padding: 0 200px 0 200px;
+}
+
+/*Contact*/
+/*image contact*/
+figure.img_contact > img{
+    z-index: -1;
+    position: absolute;
+    top: -37px;
+    left: -10px;
+}
+
+.contact > h3  {
+    position: relative;
+    top: 20px;
+}
+
+ .contact textarea, .contact input {
+     border-radius: 17px;
+     padding: 10px 10px 10px 10px;
+     margin-bottom: 10px;
+     position: relative;
+     left: 50px;
+     border: none;
+ }
+
+form {
+    margin: 0 auto;
+    width: 950px;;
+    background-color: #FCBAC5;
+    border-radius: 1em;
+    position: relative;
+    height: 525px;
+    top: 40px;
+}
+
+/*prenom*/
+.prenom {
+    position: absolute;
+    left: 40px;
+    margin-top: 50px;
+}
+
+.prenom > label {
+    position: absolute;
+    top: -30px;
+    left: 60px;
+}
+
+input#prenom {
+    width: 330px;
+    height: 25px;
+}
+
+/*nom*/
+.nom {
+    position: absolute;
+    margin-top: 50px;
+    left: 460px;
+}
+
+input#nom {
+    width: 330px;
+    height: 25px;
+}
+
+.nom > label {
+    position: absolute;
+    top: -30px;
+    left: 60px;
+}
+
+/*mail*/
+input#mail2 {
+    width: 750px;
+    height: 25px;
+}
+
+.mail2 {
+    position: absolute;
+    top: 100px;
+    margin-top: 50px;
+    left: 40px;
+}
+
+.mail2 > label {
+    position: absolute;
+    top: -30px;
+    left: 60px;
+}
+
+/*message*/
+.msg {
+    position: absolute;
+    top: 200px;
+    margin-top: 50px;
+    left: 40px
+
+}
+
+textarea#msg {
+    width: 750px;
+    height: 150px;
+}
+
+.msg > label {
+    position: absolute;
+    top: -30px;
+    left: 60px;
+}
+
+/*envoyer*/
+button.envoyer {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    position: relative;
+    left: 375px;
+    top: 450px;
 }
