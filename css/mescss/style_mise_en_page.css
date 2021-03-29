@@ -71,6 +71,7 @@ figure.img_inscription > img {
     padding: 20px 120px 3px 120px;
     text-align: center;
 }
+
 input#prenom\/nom {
      border-radius: 17px;
      padding-left: 20px;
@@ -275,11 +276,21 @@ figure.img_equipe > img {
 figure.vague > img {
     position: relative;
     top: 70px;
-    left: -50px;
+    left: -10px;
+    right: 0;
 }
 figure.vague2 > img {
     position: relative;
-    left: -50px;
+    left: -10px;
+    right: 0;
+}
+
+figure.vague {
+    margin: 0;
+}
+
+figure.vague2 {
+    margin: 0;
 }
 
 .a-propos > h3 {
@@ -287,7 +298,7 @@ figure.vague2 > img {
     height: 60px;
     border-radius: 60px 0 0 60px;
     text-align: left;
-    padding: 15px 0 0 60px;
+    padding: 15px 0 0 50px;
     position: relative;
     left: 1085px;
 }
@@ -321,7 +332,7 @@ figure.img_contact > img{
 
 form#contact {
     margin: 0 auto;
-    width: 950px;;
+    width: 950px;
     border-radius: 1em;
     position: relative;
     height: 450px;
@@ -412,3 +423,7 @@ button.envoyer {
     left: 375px;
     top: 380px;
 }
+
+/*
+
+ */
