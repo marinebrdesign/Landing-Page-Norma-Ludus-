@@ -276,12 +276,12 @@ figure.img_equipe > img {
 figure.vague > img {
     position: relative;
     top: 70px;
-    left: -10px;
+    /*left: -10px;*/
     right: 0;
 }
 figure.vague2 > img {
     position: relative;
-    left: -10px;
+   /* left: -10px;*/
     right: 0;
 }
 
