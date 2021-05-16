@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e9c2edd5-d720-424a-b492-2caf5ecefb96" name="normaluduspromo">
+        <fileTransfer rootFolder="/home/clients/21f6fe44916deaf976feb718f31e8d95" accessType="SFTP" host="qr8wp.ftp.infomaniak.com" port="22" sshConfigId="990f40ce-e1c8-4967-9171-33233637af74" sshConfig="qr8wp_marinebeurier@qr8wp.ftp.infomaniak.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
