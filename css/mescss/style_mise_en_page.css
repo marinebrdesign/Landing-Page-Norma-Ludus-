@@ -162,7 +162,7 @@ button.je-m-inscris {
 }
 
 /*image decouvrez*/
-figure.img_decouvrez > img {
+/*figure.img_decouvrez > img {
     z-index: -2;
     position: absolute;
     top: 15px;
@@ -170,7 +170,7 @@ figure.img_decouvrez > img {
 }
 
 /*découvrez*/
-.decouvrez >h2, .decouvrez > p {
+/*.decouvrez >h2, .decouvrez > p {
     position: relative;
     left: 850px;
     top:280px;
@@ -179,7 +179,7 @@ figure.img_decouvrez > img {
 
 /*postez*/
 /*image postez*/
-figure.img_postez > img {
+/*figure.img_postez > img {
     z-index: -1;
     position: absolute;
     top: 250px;
@@ -195,7 +195,7 @@ figure.img_postez > img {
 
 /*achetez/vendez*/
 /*image achetez/vendez*/
-figure.img_achetez_vendez > img {
+/*figure.img_achetez_vendez > img {
     z-index: -2;
     position: absolute;
     top: 950px;
@@ -296,7 +296,7 @@ figure.vague2 {
     margin: 0;
 }
 
-.a-propos > h3 {
+/*.a-propos > h3 {
     width: 375px;
     height: 60px;
     border-radius: 60px 0 0 60px;
@@ -304,129 +304,173 @@ figure.vague2 {
     padding: 15px 0 0 50px;
     position: relative;
     left: 1085px;
-}
+}*/
 
 .a-propos > p {
     padding: 0 200px 0 200px;
 }
 
-/*Contact*/
-/*image contact*/
-figure.img_contact > img{
-    z-index: -1;
-    position: absolute;
-    top: -37px;
-    left: -10px;
+/*h3#equipe, .contact > h3, #titre h3 {
+    height: 30px;
+    border-radius: 0 60px 60px 0;
+    text-align: left;
+    padding: 10px 0 0 20px;
+    margin-left: -10px;
+    width: 100%;
+    font-size: 15px;
 }
-
-.contact > h3  {
-    position: relative;
-    top: 20px;
-}
-
- .contact textarea, .contact input {
-     border-radius: 17px;
-     padding: 10px 10px 10px 10px;
-     margin-bottom: 10px;
-     position: relative;
-     left: 50px;
-     border: none;
- }
-
-form#contact {
-    margin: 0 auto;
-    width: 950px;
-    border-radius: 1em;
-    position: relative;
-    height: 450px;
-    top: 40px;
-}
-
-/*prenom*/
-.prenom {
-    position: absolute;
-    left: 40px;
-    margin-top: 20px;
-}
-
-.prenom > label {
-    position: absolute;
-    top: -30px;
-    left: 60px;
-}
-
-input#prenom {
-    width: 330px;
-    height: 25px;
-}
-
-/*nom*/
-.nom {
-    position: absolute;
-    margin-top: 20px;
-    left: 460px;
-}
-
-input#nom {
-    width: 330px;
-    height: 25px;
-}
-
-.nom > label {
-    position: absolute;
-    top: -30px;
-    left: 60px;
-}
-
-/*mail*/
-input#mail2 {
-    width: 750px;
-    height: 25px;
-}
-
-.mail2 {
-    position: absolute;
-    top: 100px;
-    left: 40px;
-}
-
-.mail2 > label {
-    position: absolute;
-    top: -30px;
-    left: 60px;
-}
-
-/*message*/
-.msg {
-    position: absolute;
-    top: 185px;
-    left: 40px
-
-}
-
-textarea#msg {
-    width: 750px;
-    height: 150px;
-}
-
-.msg > label {
-    position: absolute;
-    top: -30px;
-    left: 60px;
-}
-
-/*envoyer*/
-button.envoyer {
-    text-align: center;
-    width: 200px;
-    height: 50px;
-    border-radius: 12px;
-    border: none;
-    position: relative;
-    left: 375px;
-    top: 380px;
-}
-
-/*
-
  */
+
+/*contact*/
+.center {
+    width: 100%;
+    max-width: 150px;
+    margin:0 auto;
+}
+
+@media screen and (max-width: 2000px) {
+    /* contact*/
+    .contact textarea, .contact input {
+        width: 100%;
+        border-radius: 17px;
+        border: none;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 0 0 0;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    #contact {
+        box-sizing : border-box;
+        border-radius:35px;
+        background-color:#f2f2f2;
+        padding: 20px 80px 20px 80px;
+        width: 100%;
+        height: 500px;
+        max-width: 1000px;
+        margin:0 auto;
+    }
+
+    .contact {
+        margin: 0 10px 0 10px;
+    }
+
+    .nom, .prenom, .mail2, .msg {
+        padding: 5px 0 5px 0;
+    }
+
+    textarea#msg {
+        height: 200px;
+    }
+
+    #contact button.envoyer {
+        width: 150px;
+        height: 40px;
+        border-radius: 12px;
+        border: none;
+        /*margin:0 auto;*/
+    }
+
+    #nom, #prenom {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* contact*/
+    .contact textarea, .contact input {
+        width: 100%;
+        border-radius: 17px;
+        border: none;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 0 0 0;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    #contact {
+        box-sizing : border-box;
+        border-radius:35px;
+        background-color:#f2f2f2;
+        padding: 20px 50px 20px 50px;
+        width: 100%;
+        height: 500px;
+        max-width: 680px;
+        margin:0 auto;
+    }
+
+    .contact {
+        margin: 0 10px 0 10px;
+    }
+
+    .nom, .prenom, .mail2, .msg {
+        padding: 5px 0 5px 0;
+    }
+
+    textarea#msg {
+        height: 200px;
+    }
+
+    #contact button.envoyer {
+        width: 150px;
+        height: 40px;
+        border-radius: 12px;
+        border: none;
+        /*margin:0 auto;*/
+    }
+
+    #nom, #prenom {
+        display: table-cell;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /* contact*/
+    .contact textarea, .contact input {
+        width: 100%;
+        border-radius: 17px;
+        border: none;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 0 0 0;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    #contact {
+        box-sizing : border-box;
+        border-radius:35px;
+        background-color:#f2f2f2;
+        padding: 20px 30px 20px 30px;
+        width: 100%;
+        height: 500px;
+        max-width: 400px;
+        margin:0 auto;
+    }
+
+    .contact {
+        margin: 0 10px 0 10px;
+    }
+
+    .nom, .prenom, .mail2, .msg {
+        padding: 5px 0 5px 0;
+    }
+
+    textarea#msg {
+        height: 200px;
+    }
+
+    #contact button.envoyer {
+        width: 150px;
+        height: 40px;
+        border-radius: 12px;
+        border: none;
+        /*margin:0 auto;*/
+    }
+
+    #nom, #prenom {
+        display: table-cell;
+        width: 100%;
+    }
+}
