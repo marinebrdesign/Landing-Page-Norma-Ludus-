@@ -1,27 +1,30 @@
 header {
     height: 50px;
+    position: relative;
 }
 
 /* logo*/
-.logo img {
+#logo {
     width: 180px;
     height: 65px;
-    position: absolute;
+    position: relative;
     left: 44px;
-    top: 40px;
+    top: -10px;
 }
 
 /*réseaux sociaux*/
 .reseaux li{
     display: inline;
     padding: 0 20px 0 20px;
-    height: 50px;
-    width: 50px;
 }
 
-.reseaux ul {
-    position: absolute;
-    left: 250px;
+.reseaux {
+    position: relative;
+
+}
+
+#logo , .reseaux {
+    display: inline-block;
 }
 
 /* texte*/
@@ -35,16 +38,16 @@ h1 {
 }
 
 .texte p:first-of-type {
-    padding-right: 750px;
+   /* padding-right: 750px;*/
     padding-bottom: 15px;
 }
 
 .texte p:nth-of-type(2) {
-    padding-right: 975px;
+    /*padding-right: 975px;*/
 }
 
 .texte p:nth-of-type(3) {
-    padding-right: 975px;
+   /* padding-right: 975px;*/
     padding-top: 25px;
 }
 /*image fond*/
