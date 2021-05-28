@@ -28,8 +28,8 @@ header {
 }
 
 /* texte*/
-h1, .texte {
-    padding-left: 140px;
+/*h1, .texte {
+  /*  padding-left: 140px;
 }
 
 h1 {
@@ -37,19 +37,19 @@ h1 {
     margin-block-end: 20px;
 }
 
-.texte p:first-of-type {
-   /* padding-right: 750px;*/
+/*.texte p:first-of-type {
+    padding-right: 750px;
     padding-bottom: 15px;
 }
 
 .texte p:nth-of-type(2) {
-    /*padding-right: 975px;*/
+    padding-right: 975px;
 }
 
 .texte p:nth-of-type(3) {
-   /* padding-right: 975px;*/
+    padding-right: 975px;
     padding-top: 25px;
-}
+}*/
 /*image fond*/
 figure.img_inscription > img {
     position: absolute;
@@ -249,7 +249,6 @@ figure.img_equipe > img {
     top: -25px;
 
 }
-
 /*marine*/
 .marine > address > a{
     padding: 10px 20px 10px 20px;
@@ -351,10 +350,6 @@ figure.vague2 {
         margin:0 auto;
     }
 
-    .contact {
-        margin: 0 10px 0 10px;
-    }
-
     .nom, .prenom, .mail2, .msg {
         padding: 5px 0 5px 0;
     }
@@ -374,6 +369,15 @@ figure.vague2 {
     #nom, #prenom {
         display: inline-block;
         width: 100%;
+    }
+
+    /*image contact*/
+    img#img_contact.responsive {
+        width: 100%;
+        max-width: 2000px;
+        height: 800px;
+        position: absolute;
+        z-index: -1;
     }
 }
 
@@ -400,10 +404,6 @@ figure.vague2 {
         margin:0 auto;
     }
 
-    .contact {
-        margin: 0 10px 0 10px;
-    }
-
     .nom, .prenom, .mail2, .msg {
         padding: 5px 0 5px 0;
     }
@@ -423,6 +423,13 @@ figure.vague2 {
     #nom, #prenom {
         display: table-cell;
         width: 100%;
+    }
+
+    /*image contact*/
+    img#img_contact.responsive {
+        width: 100%;
+        max-width: 2000px;
+        height: 100%;
     }
 }
 
@@ -449,10 +456,6 @@ figure.vague2 {
         margin:0 auto;
     }
 
-    .contact {
-        margin: 0 10px 0 10px;
-    }
-
     .nom, .prenom, .mail2, .msg {
         padding: 5px 0 5px 0;
     }
@@ -473,4 +476,18 @@ figure.vague2 {
         display: table-cell;
         width: 100%;
     }
+
+    /*image contact*/
+    img#img_contact.responsive {
+        width: 100%;
+        max-width: 2000px;
+        height: 100%;
+    }
+
+    /*img#img_contact {
+        position: absolute;
+        z-index: -1;
+        top: -5px;
+        left: 0;
+    }*/
 }
