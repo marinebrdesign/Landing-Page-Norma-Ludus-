@@ -9,10 +9,6 @@ header {
 
 }
 
-#logo , .reseaux {
-    display: inline-block;
-}
-
 /* texte*/
 /*h1, .texte {
   /*  padding-left: 140px;
@@ -332,6 +328,11 @@ figure.vague2 {
     .reseaux ul {
         padding-left: 40px;
     }
+
+    #logo , .reseaux {
+        display: inline-block;
+    }
+
     /*insta*/
     .feather.feather-instagram {
         width: 50px;
@@ -348,6 +349,20 @@ figure.vague2 {
     #email {
         width: 55px;
         height:79px;
+    }
+
+    #logo , .reseaux {
+        display: inline-block;
+    }
+
+    /*inscription*/
+    img#img_inscription.responsive {
+        width: 50%;
+        height: 600px;
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        right: 0;
     }
 
     /* contact*/
@@ -411,6 +426,11 @@ figure.vague2 {
         height: 100%;
         visibility: hidden;
     }
+
+    img#img_inscription.responsive {
+        visibility: hidden;
+        position: absolute;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -430,25 +450,30 @@ figure.vague2 {
     }
 
     .reseaux ul {
-        padding-left: 20px;
+        padding-left:0;
+        margin: 0;
+    }
+
+    #logo , .reseaux {
+        display: table-cell;
     }
 
     /*insta*/
     .feather.feather-instagram {
-        width: 40px;
-        height:65px;
+        width: 30px;
+        height:50px;
     }
 
     /*facebook*/
     #Bold {
-        width: 40px;
-        height: 65px;
+        width: 30px;
+        height: 50px;
     }
 
     /*mail*/
     #email {
-        width: 40px;
-        height:65px;
+        width: 30px;
+        height:50px;
     }
 
     /* contact*/
@@ -494,12 +519,17 @@ figure.vague2 {
         width: 100%;
     }
 
+    /*inscription*/
+    img#img_inscription.responsive {
+        visibility: hidden;
+        position: absolute;
+    }
+
     /*image contact*/
     img#img_contact.responsive {
         width: 100%;
         max-width: 2000px;
         height: 100%;
-        visibility: hidden;
     }
 }
 
@@ -515,31 +545,51 @@ figure.vague2 {
 
     .reseaux li{
         display: inline;
-        padding: 0 10px 0 10px;
+        padding: 0 5px 0 5px;
     }
 
     .reseaux ul {
-        padding-left: 20px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    #logo , .reseaux {
+        display: table-cell;
     }
 
     /*insta*/
     .feather.feather-instagram {
-        width: 30px;
-        height:50px;
+        width: 20px;
+        height:35px;
     }
 
     /*facebook*/
     #Bold {
-        width: 30px;
-        height: 50px;
+        width: 20px;
+        height: 35px;
     }
 
     /*mail*/
     #email {
-        width: 30px;
-        height: 50px;
+        width: 20px;
+        height: 35px;
     }
 
+    /*inscription*/
+    img#img_inscription.responsive {
+        width:50%;
+        height: 30%;
+        position: relative;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        float: right;
+    }
+
+    img#img_inscription.responsive {
+        visibility: hidden;
+        position: absolute;
+    }
     /* contact*/
     .contact textarea, .contact input {
         width: 100%;
