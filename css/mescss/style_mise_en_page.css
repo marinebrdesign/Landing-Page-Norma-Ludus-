@@ -6,67 +6,17 @@ header {
     height: 50px;
     position: relative;
 }
-
+svg#logo {
+    z-index: -1;
+}
  /*fonctionnalités*/
 .fonctionnalites {
     position: relative;
 }
-
-/*.equipe, .a-propos, .contact {
-    position: relative;
-    top: 1000px;
-}*/
-
 /*equipe*/
-
-/*.equipe > h3, .contact > h3 {
-    width: 375px;
-    height: 60px;
-    border-radius: 0 60px 60px 0;
-    text-align: right;
-    padding: 15px 60px 0 0;
-    margin-left: -10px;
-}*/
-
 .lena, .marine, .nina {
     display: inline-block;
     text-align: center;
-}
-
-/*lena*/
-/*.lena > address > a{
-    padding: 10px 20px 10px 20px;
-    border-radius: 60px;
-}
-
-.lena {
-    position: relative;
-    left: 275px;
-    top: -25px;
-
-}
-/*marine*/
-/*.marine > address > a{
-    padding: 10px 20px 10px 20px;
-    border-radius: 60px;
-}
-
-.marine {
-    position: relative;
-    left: 350px;
-    top: -75px;
-}
-
-/*nina*/
-/*.nina > address > a {
-    padding: 10px 20px 10px 20px;
-    border-radius: 60px;
-}
-
-.nina {
-    position: relative;
-    left: 425px;
-    top: -25px;
 }
 
 /*à propos*/
@@ -90,20 +40,6 @@ figure.vague {
 figure.vague2 {
     margin: 0;
 }
-
-/*.a-propos > h3 {
-    width: 375px;
-    height: 60px;
-    border-radius: 60px 0 0 60px;
-    text-align: left;
-    padding: 15px 0 0 50px;
-    position: relative;
-    left: 1085px;
-}*/
-
-/*.a-propos > p {
-    padding: 0 200px 0 200px;
-}*/
 
 /*contact*/
 .center {
@@ -146,7 +82,6 @@ figure.vague2 {
     .reseaux {
         position: relative;
         top: 0;
-        z-index: -1;
     }
 
     /*insta*/
@@ -170,7 +105,6 @@ figure.vague2 {
     .reseaux {
         position: relative;
         top: -80px;
-        z-index: -1;
     }
 
     #logo, .reseaux {
@@ -918,7 +852,7 @@ figure.vague2 {
         .reseaux {
             position: relative;
             top: -50px;
-            z-index: -1;
+            z-index: 2;
         }
 
         #logo, .reseaux {
@@ -1468,7 +1402,6 @@ figure.vague2 {
         .reseaux {
             position: relative;
             top: -35px;
-            z-index: -1;
         }
 
         #logo, .reseaux {
