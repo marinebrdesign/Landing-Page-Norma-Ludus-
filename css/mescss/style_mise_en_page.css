@@ -111,6 +111,17 @@ figure.vague2 {
     max-width: 150px;
     margin:0 auto;
 }
+/*a propos*/
+#titre {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -10px;
+}
+
+#titre h3 {
+    border-radius: 60px 0 0 60px;
+}
+
 
 @media screen and (max-width: 3000px) {
     /*reseaux*/
@@ -466,13 +477,21 @@ figure.vague2 {
         max-width: 600px;
     }
 
-    h3#equipe, .contact h3, #titre h3 {
+    h3#equipe, .contact h3 {
         height: 30px;
         border-radius: 0 60px 60px 0;
         text-align: left;
         padding: 10px 0 20px 20px;
         margin-left: -10px;
         margin-top: 50px;
+        width: 100%;
+    }
+
+    #titre h3 {
+        height: 30px;
+        text-align: left;
+        padding: 10px 0 20px 20px;
+        margin-left: -10px;
         width: 100%;
     }
 
@@ -510,6 +529,21 @@ figure.vague2 {
     .nina {
         position: relative;
         left: 35px;
+    }
+
+    /*a propos*/
+    img#vague.responsive {
+        width: 100%;
+        max-width: 2000px;
+    }
+
+    img#vague2.responsive {
+        width: 100%;
+        max-width: 2000px;
+    }
+
+    .a-propos p {
+        padding: 0 50px 0 50px;
     }
 }
 
@@ -1181,7 +1215,7 @@ figure.vague2 {
     }
 
     /*equipe*/
-    h3#equipe, .contact > h3, #titre h3 {
+    h3#equipe, .contact > h3 {
         max-width: 300px;
         height: 30px;
         border-radius: 0 60px 60px 0;
@@ -1189,6 +1223,15 @@ figure.vague2 {
         padding: 10px 0 5px 20px;
         margin-left: -10px;
         margin-top: 50px;
+        width: 100%;
+    }
+
+    #titre h3 {
+        max-width: 300px;
+        height: 30px;
+        text-align: left;
+        padding: 10px 0 5px 20px;
+        margin-left: -10px;
         width: 100%;
     }
 
@@ -1225,6 +1268,11 @@ figure.vague2 {
 
     .nina {
         left: 250px;
+    }
+
+    /*a propos*/
+    .a-propos p {
+        padding: 0 30px 0 30px;
     }
 }
 
@@ -1661,7 +1709,7 @@ figure.vague2 {
             left: 0;
         }*/
 
-    h3#equipe, .contact > h3, #titre h3 {
+    h3#equipe, .contact > h3 {
         max-width: 180px;
         height: 30px;
         border-radius: 0 60px 60px 0;
@@ -1672,6 +1720,14 @@ figure.vague2 {
         width: 100%;
     }
 
+    #titre h3 {
+        max-width: 180px;
+        height: 30px;
+        text-align: left;
+        padding: 10px 0 0 20px;
+        margin-left: -10px;
+        width: 100%;
+    }
 
     /*decouvrez*/
     .decouvrez p {
@@ -1768,6 +1824,11 @@ figure.vague2 {
 
     .nina {
         left: 170px;
+    }
+
+    /*a propos*/
+    .a-propos p {
+        padding: 0 20px 0 20px;
     }
 }
 

@@ -107,14 +107,7 @@ button.je-m-inscris {
 }
 
 /* à propos*/
-.a-propos > p {
-    color: black;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 24px;
-}
-
-.a-propos > h3, h3#equipe, .contact > h3 {
+#titre h3, h3#equipe, .contact > h3 {
     color: white;
     font-family: Roboto;
     font-weight: 500;
@@ -305,6 +298,14 @@ button.envoyer {
     h3#equipe, .contact > h3, #titre h3 {
         font-size: 32px;
     }
+
+    /*a propos*/
+    .a-propos > p {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -478,6 +479,14 @@ button.envoyer {
         font-size: 20px;
     }
 
+    /*a propos*/
+    .a-propos > p {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (max-width: 480px){
@@ -586,6 +595,14 @@ button.envoyer {
     /*equipe*/
     h3#equipe, .contact > h3, #titre h3 {
         font-size: 16px;
+    }
+
+    /*a propos*/
+    .a-propos > p {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 12px;
     }
 
 }
