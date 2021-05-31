@@ -178,7 +178,6 @@ input#mail2, input#nom, input#prenom, textarea#msg{
     color: #666666;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 22px;
 }
 
 form#contact {
@@ -189,7 +188,6 @@ button.envoyer {
     color: white;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 22px;
     background-color: #CF4C68;
 }
 
@@ -306,6 +304,20 @@ button.envoyer {
         font-weight: 300;
         font-size: 24px;
     }
+
+    /*contact*/
+    input#mail2, input#nom, input#prenom, textarea#msg{
+        font-size: 22px;
+    }
+
+    button.envoyer {
+        color: white;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 22px;
+        background-color: #CF4C68;
+    }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -487,6 +499,18 @@ button.envoyer {
         font-size: 16px;
     }
 
+    /*contact*/
+    input#mail2, input#nom, input#prenom, textarea#msg{
+        font-size: 18px;
+    }
+
+    button.envoyer {
+        color: white;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 18px;
+        background-color: #CF4C68;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -603,6 +627,19 @@ button.envoyer {
         font-family: Roboto;
         font-weight: 300;
         font-size: 12px;
+    }
+
+    /*contact*/
+    input#mail2, input#nom, input#prenom, textarea#msg{
+        font-size: 14px;
+    }
+
+    button.envoyer {
+        color: white;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 14px;
+        background-color: #CF4C68;
     }
 
 }
