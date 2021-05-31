@@ -118,7 +118,6 @@ button.je-m-inscris {
     color: white;
     font-family: Roboto;
     font-weight: 500;
-    font-size: 32px;
     background-color: #CF4C68;
 }
 
@@ -301,6 +300,11 @@ button.envoyer {
     .fonctionnalites h2{
         font-size: 38px;
     }
+
+    /*equipe*/
+    h3#equipe, .contact > h3, #titre h3 {
+        font-size: 32px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -469,6 +473,11 @@ button.envoyer {
         font-size: 28px;
     }
 
+    /*equipe*/
+    h3#equipe, .contact > h3, #titre h3 {
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (max-width: 480px){
@@ -571,6 +580,11 @@ button.envoyer {
     }
 
     .fonctionnalites h2{
+        font-size: 16px;
+    }
+
+    /*equipe*/
+    h3#equipe, .contact > h3, #titre h3 {
         font-size: 16px;
     }
 

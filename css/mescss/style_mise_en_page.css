@@ -12,10 +12,10 @@ header {
     position: relative;
 }
 
-.equipe, .a-propos, .contact {
+/*.equipe, .a-propos, .contact {
     position: relative;
     top: 1000px;
-}
+}*/
 
 /*equipe*/
 
@@ -101,19 +101,9 @@ figure.vague2 {
     left: 1085px;
 }*/
 
-.a-propos > p {
+/*.a-propos > p {
     padding: 0 200px 0 200px;
-}
-
-h3#equipe {
-    height: 30px;
-    border-radius: 0 60px 60px 0;
-    text-align: left;
-    padding: 10px 0 0 20px;
-    margin-left: -10px;
-    width: 100%;
-    font-size: 15px;
-}
+}*/
 
 /*contact*/
 .center {
@@ -471,18 +461,25 @@ h3#equipe {
     }
 
     /*equipe*/
-    .equipe {
-        margin-top: 50px;
-    }
 
     h3#equipe, .contact > h3, #titre h3 {
         max-width: 600px;
     }
 
+    h3#equipe, .contact h3, #titre h3 {
+        height: 30px;
+        border-radius: 0 60px 60px 0;
+        text-align: left;
+        padding: 10px 0 20px 20px;
+        margin-left: -10px;
+        margin-top: 50px;
+        width: 100%;
+    }
+
     .equipe {
         height: 300px;
         position: relative;
-        margin: 0 auto;
+        margin: 70px auto 0 auto;
         max-width: 665px;
     }
 
@@ -1183,7 +1180,52 @@ h3#equipe {
         height: 980px;
     }
 
+    /*equipe*/
+    h3#equipe, .contact > h3, #titre h3 {
+        max-width: 300px;
+        height: 30px;
+        border-radius: 0 60px 60px 0;
+        text-align: left;
+        padding: 10px 0 5px 20px;
+        margin-left: -10px;
+        margin-top: 50px;
+        width: 100%;
+    }
 
+    .equipe {
+        height: 240px;
+        position: relative;
+        margin: 70px auto 0 auto;
+        max-width: 440px;
+    }
+
+    .lena img, .marine img, .nina img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .nina > address > p, .marine > address > p, .lena > address > p {
+        font-size: 14px;
+    }
+
+    .lena > address > a, .marine > address > a, .nina > address > a{
+        padding: 7px 15px 7px 15px;
+        border-radius: 60px;
+        font-size: 12px;
+    }
+
+    .nina, .marine, .lena {
+        position: absolute;
+    }
+
+    .marine {
+        left: 125px;
+        top: -60px;
+    }
+
+    .nina {
+        left: 250px;
+    }
 }
 
 @media screen and (max-width: 675px) {
@@ -1619,6 +1661,18 @@ h3#equipe {
             left: 0;
         }*/
 
+    h3#equipe, .contact > h3, #titre h3 {
+        max-width: 180px;
+        height: 30px;
+        border-radius: 0 60px 60px 0;
+        text-align: left;
+        padding: 10px 0 0 20px;
+        margin-left: -10px;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+
     /*decouvrez*/
     .decouvrez p {
         position: absolute;
@@ -1678,6 +1732,42 @@ h3#equipe {
 
     .fonctionnalites {
         height: 610px;
+    }
+
+    .equipe {
+        height: 200px;
+        position: relative;
+        margin: 40px auto 0 auto;
+        max-width: 320px;
+    }
+
+    .lena img, .marine img, .nina img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .nina > address > p, .marine > address > p, .lena > address > p {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .nina > address > a, .marine > address > a, .lena > address > a {
+        padding: 5px 10px 5px 10px;
+        border-radius: 60px;
+        font-size: 9px;
+    }
+
+    .nina, .marine, .lena {
+        position: absolute;
+    }
+
+    .marine {
+        left: 85px;
+        top: -40px;
+    }
+
+    .nina {
+        left: 170px;
     }
 }
 
