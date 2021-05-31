@@ -47,10 +47,6 @@ svg#email {
 }
 
 /*inscription*/
-.inscrivez-vous {
-    background-color: white;
-}
-
 .inscrivez-vous h2 {
     color: black;
     font-family: Roboto;
@@ -64,7 +60,6 @@ svg#email {
     font-weight: 700;
     font-size: 27px;
     text-decoration: underline;
-
 }
 
 input#prenom\/nom, input#age, input#id, input#mail, input#mdp {
@@ -80,13 +75,13 @@ input#prenom\/nom, input#age, input#id, input#mail, input#mdp {
     font-family: Roboto;
     font-weight: 300;
     font-size: 15px;
+    text-align: center;
 }
 .mdp > p:first-of-type {
     color: black;
     font-family: Roboto;
     font-weight: 300;
     font-size: 10px;
-    background-color: white;
 }
 
 button.je-m-inscris {
@@ -209,62 +204,160 @@ button.envoyer {
 }
 
 /*responsive*/
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 3000px) {
     .texte p {
-        padding-left: 20px;
-        padding-right: 650px;
+        padding-left: 30px;
+        padding-right: 15px;
     }
 
     .texte h1 {
-        font-size: 96px;
+        font-size: 90px;
+        margin-bottom: 0;
+        padding-left: 30px;
     }
 
     .texte > p:first-of-type {
         font-size: 30px;
+        text-align: justify;
     }
 
     .texte > p:nth-of-type(2){
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .texte > p:last-of-type{
+        font-size: 25px;
+    }
+
+    /*connexion*/
+    .connectez-vous b {
+        color: black;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 27px;
+        text-decoration: underline;
+    }
+
+    input#prenom\/nom, input#age, input#id, input#mail, input#mdp {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 15px;
+        background-color: #FFE9AA;
+    }
+
+    button.je-me-connecte {
+        color: white;
+        font-family: Roboto;
+        font-weight: 700;
         font-size: 18px;
+        background-color: #CF4C68;
+    }
+
+    .connexion > p {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+    }
+    .mdp > p:first-of-type {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 10px;
+    }
+
+    #connexion a#mdp-oublie {
+        color: #76A0A3;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    #connexion a#inscription {
+        color: #CF4C68;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    #connexion a, #connexion p {
+        display: inline-block;
+    }
+
+    #connexion p {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 15px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .texte p {
         padding-left: 15px;
-        padding-right: 600px;
+        padding-right: 25px;
+    }
+
+    .texte > p:first-of-type {
+        font-size: 21px;
+        text-align: justify;
+    }
+
+    .texte > p:nth-of-type(2){
+        font-size: 17px;
+    }
+
+    .texte > p:last-of-type{
+        font-size: 15px;
     }
 }
 
 @media screen and (max-width: 1060px) {
     .texte p {
         padding-left: 15px;
-        padding-right: 500px;
+        padding-right: 20px;
+    }
+
+    .texte > p:first-of-type {
+        text-align: justify;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .texte p {
         padding-left: 15px;
-        padding-right: 0;
+        padding-right: 20px;
+    }
+
+    .texte > p:first-of-type {
+        text-align: justify;
+    }
+
+    .texte h1 {
+        margin-bottom: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .texte p {
-        padding-left: 15px;
-        padding-right: 0;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .texte h1 {
         font-size: 60px;
+        padding-left: 15px;
+        margin-bottom: 0;
+        text-align: center;
     }
 
     .texte > p:first-of-type {
         font-size: 22px;
+        text-align: justify;
     }
 
     .texte > p:nth-of-type(2){
@@ -273,21 +366,93 @@ button.envoyer {
 
     .texte > p:last-of-type{
         font-size: 15px;
+        text-align: justify;
     }
+
+    /*connexion*/
+    .connectez-vous b {
+        color: black;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+
+    input#prenom\/nom, input#age, input#id, input#mail, input#mdp {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 15px;
+        background-color: #FFE9AA;
+    }
+
+    button.je-me-connecte {
+        color: white;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 15px;
+        background-color: #CF4C68;
+    }
+
+    .connexion > p {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+    }
+    .mdp > p:first-of-type {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 10px;
+    }
+
+    #connexion a#mdp-oublie {
+        color: #76A0A3;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    #connexion a#inscription {
+        color: #CF4C68;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    #connexion a, #connexion p {
+        display: inline-block;
+    }
+
+    #connexion p {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width: 480px){
     .texte p {
-        padding-left: 10px;
-        padding-right: 0;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .texte h1 {
         font-size: 30px;
+        margin-bottom: 0;
+        padding-left: 15px;
+        text-align: center;
     }
 
     .texte > p:first-of-type {
         font-size: 18px;
+        text-align: justify;
     }
 
     .texte > p:nth-of-type(2){
@@ -295,6 +460,74 @@ button.envoyer {
     }
 
     .texte > p:last-of-type{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    /*connexion*/
+    .connectez-vous b {
+        color: black;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 18px;
+        text-decoration: underline;
+    }
+
+    input#prenom\/nom, input#age, input#id, input#mail, input#mdp {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 12px;
+        background-color: #FFE9AA;
+    }
+
+    button.je-me-connecte {
+        color: white;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 12px;
+        background-color: #CF4C68;
+    }
+
+
+    .connexion > p {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 12px;
+        text-align: center;
+    }
+    .mdp > p:first-of-type {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 8px;
+    }
+
+    #connexion a#mdp-oublie {
+        color: #76A0A3;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    #connexion a#inscription {
+        color: #CF4C68;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    #connexion a, #connexion p {
+        display: inline-block;
+    }
+
+    #connexion p {
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
         font-size: 12px;
     }
 

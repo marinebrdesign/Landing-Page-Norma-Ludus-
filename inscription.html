@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Incription</title>
+</head>
+<body>
+<div class="inscription">
+  <div class="inscrivez-vous">
+    <form action="formulaire_inscription" method="post" id="inscription">
+      <h2>Inscrivez-vous <br> <b>gratuitement</b></h2>
+      <div class="prenom/nom">
+        <label for="prenom/nom"></label>
+        <input type="text" placeholder="Prénom Nom" id="prenom/nom" name="user_firstname_name" required>
+      </div>
+      <div class="age">
+        <label for="age"></label>
+        <input type="date" id="age" name="user_age" required>
+      </div>
+      <div class="id">
+        <label for="id"></label>
+        <input type="text" id="id" placeholder="Identifiant" name="user_id" required>
+      </div>
+      <div class="mail">
+        <label for="mail"></label>
+        <input type="email" placeholder="Email" id="mail" name="user_mail" required>
+      </div>
+      <div class="mdp">
+        <p>Créez un mot de passe avec minimum 12 caractères, au moins : <br> une majuscule, une minuscule, un chiffre et un caractère spécial </p>
+        <label for="mdp"></label>
+        <input type="password" placeholder="Votre mot de passe" id="mdp" name="user_password">
+      </div>
+      <button class="je-m-inscris"
+              type="submit">
+        Je m'inscris
+      </button>
+    </form>
+  </div>
+  <p>N'attendez pas et rejoignez nous vite sur Norma Ludus !</p>
+</div>
+</body>
+</html>

@@ -2,12 +2,12 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Norma Ludus</title>
     <link rel="stylesheet" href="css/mescss/typographie_couleurs.css">
     <link rel="stylesheet" href="css/mescss/style_mise_en_page.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');</style>
     <style>@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap');</style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header>
@@ -23,45 +23,35 @@
 
 <main>
     <div class="texte">
-        <img src="img/image.png" alt="img_inscription" id="img_inscription" class="responsive">
+        <!--<img src="img/image.png" alt="img_inscription" id="img_inscription" class="responsive">-->
         <h1>Norma Ludus</h1>
         <p>Vos soirées de jeux de société finissent souvent en disputes à cause des différentes règles des joueurs ?</p>
         <p>Norma Ludus est là pour vous !</p>
         <p>Ce site permet de recenser toutes les règles de vos jeux de sociétés préférés ainsi que des variantes pour ne plus jamais vous disputer ou vous lasser de vos jeux. Ce n’est pas assez ? Vous avez également la possibilité de vendre ou acheter des jeux.</p>
     </div>
-    <!--<div class="inscription">
-       <div class="inscrivez-vous">
-           <h2>Inscrivez-vous <b>gratuitement</b></h2>
-           <form action="formulaire_inscription" method="post" id="inscription">
-               <div class="prenom/nom">
-                   <label for="prenom/nom"></label>
-                   <input type="text" placeholder="Prénom Nom" id="prenom/nom" name="user_firstname_name" required>
-               </div>
-               <div class="age">
-                   <label for="age"></label>
-                   <input type="date" id="age" name="user_age" required>
-               </div>
-               <div class="id">
-                   <label for="id"></label>
-                   <input type="text" id="id" placeholder="Identifiant" name="user_id" required>
-               </div>
+    <div class="connexion">
+       <div class="connectez-vous">
+           <img src="img/connnexion_tablette.png" alt="" id="connexion_t_img">
+           <img src="img/connexion_mobile.png" alt="" id="connexion_m_img">
+           <form action="formulaire_contact" method="post" id="connexion">
+               <h2><b>Connectez-vous</b></h2>
                <div class="mail">
                    <label for="mail"></label>
-                   <input type="email" placeholder="Email" id="mail" name="user_mail" required>
+                   <input type="text" placeholder="E-mail ou identifiant" id="mail" required>
                </div>
                <div class="mdp">
-                   <p>Créez un mot de passe avec minimum 12 caractères, au moins : <br> une majuscule, une minuscule, un chiffre et un caractère spécial </p>
                    <label for="mdp"></label>
-                   <input type="password" placeholder="Votre mot de passe" id="mdp" name="user_password">
+                   <input type="password" placeholder="Mot de passe" id="mdp" name="user_password">
                </div>
-               <button class="je-m-inscris"
+               <a href="mdp-oublie.html" id="mdp-oublie">Mot de passe oublié ?</a>
+               <button class="je-me-connecte"
                    type="submit">
-                   Je m'inscris
+                   Connexion
                </button>
+               <a href="page-inscription.html" id="inscription"><p>Vous n'avez pas de compte ? </p> Inscrivez-vous !</a>
            </form>
        </div>
-       <p>N'attendez pas et rejoignez nous vite sur Norma Ludus !</p>
-   </div>-->
+   </div>
    <div class="fonctionnalites">
        <div class="decouvrez">
            <!--<figure class="img_decouvrez">
@@ -86,8 +76,8 @@
         </div>
     </div>
     <div class="equipe">
-        <h3>L'équipe</h3>
-        <!--<figure class="img_equipe">
+        <!--<h3>L'équipe</h3>
+        <figure class="img_equipe">
            <img src="img/img_equipe.jpg" alt="img_equipe" height="550" width="1520">
        </figure>
         <div class="lena">

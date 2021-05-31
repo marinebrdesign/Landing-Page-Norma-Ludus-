@@ -1,141 +1,10 @@
+body {
+    margin: 8px 0 8px 0;
+}
+
 header {
     height: 50px;
     position: relative;
-}
-
-/*réseaux sociaux*/
-.reseaux {
-    position: relative;
-
-}
-
-/* texte*/
-/*h1, .texte {
-  /*  padding-left: 140px;
-}
-
-h1 {
-    padding-top: 50px;
-    margin-block-end: 20px;
-}
-
-/*.texte p:first-of-type {
-    padding-right: 750px;
-    padding-bottom: 15px;
-}
-
-.texte p:nth-of-type(2) {
-    padding-right: 975px;
-}
-
-.texte p:nth-of-type(3) {
-    padding-right: 975px;
-    padding-top: 25px;
-}*/
-/*image fond*/
-figure.img_inscription > img {
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    left: 525px;
-}
-
-/* Inscrivez-vous*/
-.inscription {
-    position: absolute;
-    left: 1050px;
-    top: 10px;
-    right: 30px;
-}
-
-.inscrivez-vous {
-    border-radius: 39px;
-}
-
-.inscrivez-vous h2 {
-    padding: 20px 120px 3px 120px;
-    text-align: center;
-}
-
-input#prenom\/nom {
-     border-radius: 17px;
-     padding-left: 20px;
-    padding-right: 20px;
-     margin-bottom: 10px;
-     position: relative;
-     left: 50px;
-     border: none;
-     width: 305px;
-     height: 40px;
- }
-
-input#age {
-    border-radius: 17px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-    position: relative;
-    left: 50px;
-    border: none;
-    width: 305px;
-    height: 40px;
-}
-
-input#id {
-    border-radius: 17px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-    position: relative;
-    left: 50px;
-    border: none;
-    width: 305px;
-    height: 40px;
-}
-
-input#mail {
-    margin-bottom: 0;
-    border-radius: 17px;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
-    left: 50px;
-    border: none;
-    width: 305px;
-    height: 40px;
-}
-
-input#mdp {
-    border-radius: 17px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-    position: relative;
-    left: 50px;
-    border: none;
-    width: 305px;
-    height: 40px;
-}
-
-.mdp p:first-of-type {
-     text-align: center;
-     background: none;
-     padding: 0 50px 0 50px;
-}
-
-button.je-m-inscris {
-     text-align: center;
-     padding: 12px 125px 12px 125px;
-     margin-bottom: 20px;
-     position: relative;
-     left: 50px;
-     border-radius: 17px;
-     border: none;
-}
-
-.inscription > p {
-     text-align: center;
-     padding: 0 70px 0 70px;
 }
 
  /*fonctionnalités*/
@@ -309,7 +178,7 @@ figure.vague2 {
     margin:0 auto;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 3000px) {
     /*reseaux*/
     /* logo*/
     #logo {
@@ -317,7 +186,7 @@ figure.vague2 {
         height: 65px;
         position: relative;
         left: 20px;
-        top: -10px;
+        top: 10px;
     }
 
     .reseaux li{
@@ -329,8 +198,10 @@ figure.vague2 {
         padding-left: 40px;
     }
 
-    #logo , .reseaux {
-        display: inline-block;
+    .reseaux {
+        position: relative;
+        top: 0;
+        z-index: -1;
     }
 
     /*insta*/
@@ -351,18 +222,171 @@ figure.vague2 {
         height:79px;
     }
 
-    #logo , .reseaux {
+    .reseaux {
+        position: relative;
+        top: -80px;
+        z-index: -1;
+    }
+
+    #logo, .reseaux {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*connexion*/
+    .connexion {
+        position: absolute;
+        z-index: 2;
+        width: 50%;
+        top: 150px;
+
+    }
+
+    .connexion input {
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 20px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-bottom: 10px;
+    }
+
+    #connexion {
+        box-sizing : border-box;
+        border-radius:30px;
+        padding: 20px 40px 20px 40px;
+        background-color: white;
+        width: 100%;
+        height: 430px;
+        max-width: 570px;
+        margin:0 auto;
+    }
+
+    #connexion .prenom\/nom, #connexion .mail, #connexion .id, #connexion .age, #connexion .mdp {
+        padding: 5px 0 5px 0;
+    }
+
+    #connexion button.je-me-connecte {
+        width: 100%;
+        padding: 20px;
+        border-radius:20px;
+        border: none;
+    }
+
+    .connectez-vous h2 {
+        text-align: center;
+    }
+
+    .mdp p:first-of-type {
+        text-align: center;
+        background: none;
+        padding: 0 50px 0 50px;
+        margin-top: 0;
+    }
+
+    #mail {
+        margin-bottom: 0;
+    }
+
+    .texte, .connexion {
         display: inline-block;
     }
 
-    /*inscription*/
-    img#img_inscription.responsive {
+    .texte {
         width: 50%;
-        height: 600px;
+    }
+
+    #connexion {
+        border: 5px solid #aedfe0;
+    }
+
+    #connexion a#mdp-oublie {
+        float: right;
+        padding-bottom: 10px;
+    }
+
+    #connexion a#inscription {
+        display:block;
+        text-align:center;
+    }
+
+    img#connexion_t_img {
+        visibility: hidden;
         position: absolute;
-        z-index: -1;
-        top: 0px;
-        right: 0;
+    }
+
+    img#connexion_m_img {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    /*inscription*/
+    .inscription {
+        position: absolute;
+        z-index: 2;
+        width: 50%;
+        top: 130px;
+
+    }
+
+    .inscription input {
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 20px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-bottom: 10px;
+    }
+
+    form#inscription {
+        box-sizing : border-box;
+        border-radius:30px;
+        padding: 20px 40px 20px 40px;
+        background-color: white;
+        width: 100%;
+        height: 670px;
+        max-width: 570px;
+        margin:0 auto;
+    }
+
+    form#inscription .prenom\/nom, form#inscription .mail, form#inscription .id, form#inscription .age, form#inscription .mdp {
+        padding: 5px 0 5px 0;
+    }
+
+    form#inscription button.je-m-inscris {
+        width: 100%;
+        padding: 20px;
+        border-radius:20px;
+        border: none;
+    }
+
+    .inscrivez-vous h2 {
+        text-align: center;
+    }
+
+    .mdp p:first-of-type {
+        text-align: center;
+        background: none;
+        padding: 0 50px 0 50px;
+        margin-top: 0;
+    }
+
+    #mail {
+        margin-bottom: 0;
+    }
+
+    .texte, .inscription {
+        display: inline-block;
+    }
+
+    .texte {
+        width: 50%;
+    }
+
+    form#inscription {
+        border: 5px solid #aedfe0;
     }
 
     /* contact*/
@@ -426,11 +450,6 @@ figure.vague2 {
         height: 100%;
         visibility: hidden;
     }
-
-    img#img_inscription.responsive {
-        visibility: hidden;
-        position: absolute;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -441,12 +460,12 @@ figure.vague2 {
         height: 50px;
         position: relative;
         left: 10px;
-        top: -10px;
+        top: 0;
     }
 
     .reseaux li{
         display: inline;
-        padding: 0 10px 0 10px;
+        padding: 0 5px 0 15px;
     }
 
     .reseaux ul {
@@ -454,7 +473,18 @@ figure.vague2 {
         margin: 0;
     }
 
-    #logo , .reseaux {
+    .reseaux {
+        position: relative;
+        top: -50px;
+        z-index: -1;
+    }
+
+    #logo, .reseaux {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .texte, .inscription {
         display: table-cell;
     }
 
@@ -474,6 +504,140 @@ figure.vague2 {
     #email {
         width: 30px;
         height:50px;
+    }
+
+    /*connexion*/
+    .connexion {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        top: 10px;
+    }
+
+    .connexion input {
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 20px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-bottom: 10px;
+    }
+
+    #connexion {
+        box-sizing : border-box;
+        border-radius:30px;
+        padding: 20px 50px 20px 50px;
+        background-color: white;
+        width: 100%;
+        height: 390px;
+        max-width: 450px;
+        margin:0 auto;
+        border: none;
+        position: relative;
+        top: 70px;
+    }
+
+    img#connexion_t_img {
+        position: absolute;
+        width: 100%;
+        max-width: 2000px;
+        max-height: 500px;
+        z-index: -1;
+        visibility: visible;
+    }
+
+    img#connexion_m_img {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    #connexion .prenom\/nom, #connexion .mail, #connexion .id, #connexion .age, #connexion .mdp {
+        padding: 5px 0 5px 0;
+    }
+
+    #connnexion button.je-me-connecte {
+        width: 100%;
+        padding: 20px;
+        border-radius:20px;
+        border: none;
+    }
+
+    .connectez-vous h2 {
+        text-align: center;
+    }
+
+    .mdp p:first-of-type {
+        text-align: center;
+        background: none;
+        padding: 0 50px 0 50px;
+        margin-top: 0;
+    }
+
+    #mail {
+        margin-bottom: 0;
+    }
+
+    #container a#mdp-oublie {
+        display:block;
+        text-align:center;
+    }
+
+    /*inscription*/
+    .inscription {
+        position: relative;
+        z-index: 2;
+        width: 50%;
+        top: 20px;
+
+    }
+
+    .inscription input {
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 20px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-bottom: 10px;
+    }
+
+    form#inscription {
+        box-sizing : border-box;
+        border-radius:30px;
+        padding: 20px 50px 20px 50px;
+        background-color: white;
+        width: 100%;
+        height: 670px;
+        max-width: 570px;
+        margin:0 auto;
+        border: none;
+    }
+
+    form#inscription .prenom\/nom, form#inscription .mail, form#inscription .id, form#inscription .age, form#inscription .mdp {
+        padding: 5px 0 5px 0;
+    }
+
+    form#inscription button.je-m-inscris {
+        width: 100%;
+        padding: 20px;
+        border-radius:20px;
+        border: none;
+    }
+
+    .inscrivez-vous h2 {
+        text-align: center;
+    }
+
+    .mdp p:first-of-type {
+        text-align: center;
+        background: none;
+        padding: 0 50px 0 50px;
+        margin-top: 0;
+    }
+
+    #mail {
+        margin-bottom: 0;
     }
 
     /* contact*/
@@ -519,12 +683,6 @@ figure.vague2 {
         width: 100%;
     }
 
-    /*inscription*/
-    img#img_inscription.responsive {
-        visibility: hidden;
-        position: absolute;
-    }
-
     /*image contact*/
     img#img_contact.responsive {
         width: 100%;
@@ -540,12 +698,12 @@ figure.vague2 {
         width: 100px;
         position: relative;
         left: 10px;
-        top: -8px;
+        top: 0;
     }
 
     .reseaux li{
         display: inline;
-        padding: 0 5px 0 5px;
+        padding: 0 5px 0 15px;
     }
 
     .reseaux ul {
@@ -553,7 +711,18 @@ figure.vague2 {
         margin: 0;
     }
 
-    #logo , .reseaux {
+    .reseaux {
+        position: relative;
+        top: -35px;
+        z-index: -1;
+    }
+
+    #logo, .reseaux {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .texte, .inscription {
         display: table-cell;
     }
 
@@ -575,21 +744,137 @@ figure.vague2 {
         height: 35px;
     }
 
-    /*inscription*/
-    img#img_inscription.responsive {
-        width:50%;
-        height: 30%;
+    /*connexion*/
+    .connexion {
         position: relative;
-        z-index: -1;
-        top: 0;
-        right: 0;
-        float: right;
+        z-index: 2;
+        width: 100%;
+        top: 20px;
+
     }
 
-    img#img_inscription.responsive {
+    .connexion input {
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-bottom: 10px;
+    }
+
+    #connexion {
+        box-sizing : border-box;
+        border-radius:30px;
+        padding: 10px 30px 10px 30px;
+        background-color: white;
+        width: 100%;
+        height: 300px;
+        max-width: 310px;
+        margin:0 auto;
+        border: none;
+        position: relative;
+        top:110px;
+    }
+
+    #connexion .prenom\/nom, #connexion .mail, #connexion .id, #connexion .age, #connexion .mdp {
+        padding: 5px 0 5px 0;
+    }
+
+    #connexion button.je-me-connecte{
+        width: 100%;
+        padding: 10px;
+        border-radius:20px;
+        border: none;
+    }
+
+    .connectez-vous h2 {
+        text-align: center;
+    }
+
+    .mdp p:first-of-type {
+        text-align: center;
+        background: none;
+        padding: 0 50px 0 50px;
+        margin-top: 0;
+    }
+
+    #mail {
+        margin-bottom: 0;
+    }
+
+    img#connexion_t_img {
         visibility: hidden;
         position: absolute;
     }
+
+    img#connexion_m_img {
+        position: absolute;
+        width: 100%;
+        max-width: 2000px;
+        max-height: 650px;
+        z-index: -1;
+        visibility: visible;
+        top: -160px;
+    }
+
+    /*inscription*/
+    .inscription {
+        position: relative;
+        z-index: 2;
+        width: 50%;
+        top: 20px;
+
+    }
+
+    .inscription input {
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        padding: 20px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-bottom: 10px;
+    }
+
+    form#inscription {
+        box-sizing : border-box;
+        border-radius:30px;
+        padding: 20px 50px 20px 50px;
+        background-color: white;
+        width: 100%;
+        height: 670px;
+        max-width: 570px;
+        margin:0 auto;
+        border: none;
+    }
+
+    form#inscription .prenom\/nom, form#inscription .mail, form#inscription .id, form#inscription .age, form#inscription .mdp {
+        padding: 5px 0 5px 0;
+    }
+
+    form#inscription button.je-m-inscris {
+        width: 100%;
+        padding: 20px;
+        border-radius:20px;
+        border: none;
+    }
+
+    .inscrivez-vous h2 {
+        text-align: center;
+    }
+
+    .mdp p:first-of-type {
+        text-align: center;
+        background: none;
+        padding: 0 50px 0 50px;
+        margin-top: 0;
+    }
+
+    #mail {
+        margin-bottom: 0;
+    }
+
     /* contact*/
     .contact textarea, .contact input {
         width: 100%;
@@ -647,4 +932,80 @@ figure.vague2 {
         top: -5px;
         left: 0;
     }*/
+}
+
+@media screen and (max-width: 430px) {
+    #connexion {
+        border-radius:30px;
+        padding: 10px 30px 10px 30px;
+        background-color: white;
+        width: 100%;
+        height: 320px;
+        max-width: 310px;
+        margin:0 auto;
+        border: none;
+        position: relative;
+        top:70px;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    #connexion {
+        border-radius:30px;
+        padding: 10px 30px 10px 30px;
+        background-color: white;
+        width: 100%;
+        height: 320px;
+        max-width: 310px;
+        margin:0 auto;
+        border: none;
+        position: relative;
+        top:50px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #connexion {
+        border-radius:30px;
+        padding: 10px 30px 10px 30px;
+        background-color: white;
+        width: 100%;
+        height: 320px;
+        max-width: 310px;
+        margin:0 auto;
+        border: none;
+        position: relative;
+        top:30px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    #connexion {
+        border-radius:30px;
+        padding: 10px 30px 10px 30px;
+        background-color: white;
+        width: 100%;
+        height: 300px;
+        max-width: 310px;
+        margin:0 auto;
+        border: none;
+        position: relative;
+        top:30px;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+    #connexion {
+        border-radius:30px;
+        padding: 10px 30px 10px 30px;
+        background-color: white;
+        width: 100%;
+        height: 300px;
+        max-width: 310px;
+        margin:0 auto;
+        border: none;
+        position: relative;
+        top:10px;
+    }
 }
