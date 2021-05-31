@@ -97,15 +97,13 @@ button.je-m-inscris {
 .fonctionnalites p{
     color: black;
     font-family: Roboto;
-    font-weight: 500;
-    font-size: 22px
+    font-weight: 300;
 }
 
 .fonctionnalites h2{
     color: black;
     font-family: Roboto;
-    font-weight: 300;
-    font-size: 38px;
+    font-weight: 500;
 }
 
 /* à propos*/
@@ -116,7 +114,7 @@ button.je-m-inscris {
     font-size: 24px;
 }
 
-.a-propos > h3, .equipe > h3, .contact > h3 {
+.a-propos > h3, h3#equipe, .contact > h3 {
     color: white;
     font-family: Roboto;
     font-weight: 500;
@@ -206,7 +204,7 @@ button.envoyer {
 /*responsive*/
 @media screen and (max-width: 3000px) {
     .texte p {
-        padding-left: 30px;
+        padding-left: 28px;
         padding-right: 15px;
     }
 
@@ -294,6 +292,15 @@ button.envoyer {
         font-weight: 300;
         font-size: 15px;
     }
+
+    /*fonctionnalités*/
+    .fonctionnalites p{
+        font-size: 22px;
+    }
+
+    .fonctionnalites h2{
+        font-size: 38px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -303,7 +310,7 @@ button.envoyer {
     }
 
     .texte > p:first-of-type {
-        font-size: 21px;
+        font-size: 22px;
         text-align: justify;
     }
 
@@ -313,6 +320,15 @@ button.envoyer {
 
     .texte > p:last-of-type{
         font-size: 15px;
+    }
+
+    /*fonctionnalités*/
+    .fonctionnalites p{
+        font-size: 18px;
+    }
+
+    .fonctionnalites h2{
+        font-size: 34px;
     }
 }
 
@@ -339,6 +355,15 @@ button.envoyer {
 
     .texte h1 {
         margin-bottom: 0;
+    }
+
+    /*fonctionnalités*/
+    .fonctionnalites p{
+        font-size: 16px;
+    }
+
+    .fonctionnalites h2{
+        font-size: 32px;
     }
 }
 
@@ -435,6 +460,15 @@ button.envoyer {
         font-size: 15px;
     }
 
+    /*fonctionnalités*/
+    .fonctionnalites p{
+        font-size: 16px;
+    }
+
+    .fonctionnalites h2{
+        font-size: 28px;
+    }
+
 }
 
 @media screen and (max-width: 480px){
@@ -529,6 +563,15 @@ button.envoyer {
         font-family: Roboto;
         font-weight: 300;
         font-size: 12px;
+    }
+
+    /*fonctionnalités*/
+    .fonctionnalites p{
+        font-size: 12px;
+    }
+
+    .fonctionnalites h2{
+        font-size: 16px;
     }
 
 }
