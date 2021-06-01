@@ -191,6 +191,13 @@ button.envoyer {
     background-color: #CF4C68;
 }
 
+
+/*connexion*/
+button.je-me-connecte a {
+    color: white;
+    text-decoration: none;
+}
+
 /*responsive*/
 @media screen and (max-width: 3000px) {
     .texte p {
@@ -240,11 +247,6 @@ button.envoyer {
         font-weight: 700;
         font-size: 18px;
         background-color: #CF4C68;
-    }
-
-    button.je-me-connecte a {
-        color: white;
-        text-decoration: none;
     }
 
     .connexion > p {
@@ -440,6 +442,8 @@ button.envoyer {
         font-size: 15px;
         background-color: #CF4C68;
     }
+
+
 
     .connexion > p {
         color: black;
