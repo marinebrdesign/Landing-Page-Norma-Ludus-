@@ -616,6 +616,13 @@ figure.vague2 {
         height:1100px;
     }
 
+    img#postez {
+        position: relative;
+        top: -480px;
+        height: 200%;
+        width: 50%;
+    }
+
 }
 
 @media screen and (max-width: 1060px) {
