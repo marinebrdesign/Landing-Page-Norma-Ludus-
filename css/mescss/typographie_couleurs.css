@@ -242,6 +242,11 @@ button.envoyer {
         background-color: #CF4C68;
     }
 
+    button.je-me-connecte a {
+        color: white;
+        text-decoration: none;
+    }
+
     .connexion > p {
         color: black;
         font-family: Roboto;
